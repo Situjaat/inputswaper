@@ -1,0 +1,44 @@
+.Main_div{
+  margin: auto;
+  width: 40%;
+  padding: 20px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.input_div{
+  /* border: 1px solid blue; */
+  width: 58%;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  gap:13px;
+  margin:auto;
+  
+}
+.input_div input{
+  height: 35px;
+  border-radius: 5px;
+}
+.btn_div{
+  width: 60%;
+display: flex;
+justify-content: center;
+margin: auto;
+  gap: 28px;
+  
+
+}
+.btn_div button{
+  padding: 5px;
+  border-radius: 5px;
+  width: 25%;
+  background-color: blue;
+  color: white;
+  height: 40px;
+}
+h3{
+  text-align: center;
+  color: rgb(65, 215, 19);
+  font-style: italic;
+}
